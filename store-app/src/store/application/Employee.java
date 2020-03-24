@@ -74,6 +74,7 @@ public class Employee {
 					{
 						stock.productList.remove(key);
 					}
+					break;
 				}
 			}
 		}

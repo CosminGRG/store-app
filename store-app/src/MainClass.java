@@ -48,5 +48,48 @@ public class MainClass {
 		gemployee.getStock().PrintStock();
 		
 		input.close();
+		/*
+		 * The above code will output:
+		 * 
+		Stock:
+		Milk : 25
+		Coffee : 10
+		Spoon : 50
+		Sugar : 5
+		Cup : 3
+		
+		Stock:
+		Coffee : 10
+		Spoon : 50
+		Sugar : 5
+		
+		Receipt:
+		Employee ID: 1
+		Employee Name: Angajatul
+		
+		5 x Coffee 35.0 175.0
+		20 x Spoon 15.0 300.0
+		Total: 475.0
+		
+		Stock:
+		Coffee : 5
+		Spoon : 30
+		Sugar : 5
+		
+		
+		Receipt:
+		Employee ID: 2
+		Employee Name: Angajata
+		
+		10 x Milk 10.0 100.0
+		15 x Spoon 15.0 225.0
+		Total: 325.0
+		
+		Stock:
+		Milk : 10
+		Coffee : 5
+		Spoon : 15
+		Sugar : 5
+		*/
 	}
 }
