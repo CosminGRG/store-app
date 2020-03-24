@@ -5,7 +5,9 @@ public class Product {
 	private int id = 0;
 	private int price;
 	private String name;
+	@SuppressWarnings("unused")
 	private String description;
+	@SuppressWarnings("unused")
 	private String expiration_date;
 	
 	public Product() {}
